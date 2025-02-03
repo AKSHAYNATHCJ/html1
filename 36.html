@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html image mapping</title>
+</head>
+<body>
+    <h2>image maps</h2>
+    <p>click on the computer,the phone or cup of coffee to a new image</p>
+
+    <img src="workplace.jpeg" alt="workplace" usemap="#workmap" width="400" height="379">
+
+    <map name="workmap" >
+
+        <area shape="rect" coords="34,44,270,150" alt="computer" href="computer.jpeg" >
+
+        <area shape="rect" coords="34,44,270,150" alt="computer" href="phone.jpeg" >
+
+        <area shape="circle" coords="34,44,270,150" alt="computer" href="tea.jpeg" >
+    </map>
+
+
+
+</body>
+</html>
