@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .left{
+            background-color: aqua;
+            padding: 20px;
+            float: left;
+            width: 20%;
+        }
+        .main{
+            background-color: red;
+            padding: 20px;
+            float: left;
+            width: 60%;
+        }
+        .right{
+            background-color: teal;
+            padding: 20px;
+            float: left;
+            width: 20%;
+        }
+        @media screen and (max-width: 800px){
+            .left,.main,.right{
+                width: 100%;
+            }
+        }
+
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Media queries</h2>
+
+    <div class="left">
+        <p>left menu</p>
+    </div>
+
+    <div class="main">
+        <p>main menu</p>
+    </div>
+
+    <div class="right">
+        <p>right menu</p>
+    </div>
+</body>
+</html>
